@@ -1,0 +1,54 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.linha-tabuleiro:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: crimson;
+}
+
+.quadrado {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+
+.quadrado:focus {
+  outline: none;
+}
+
+.kbd-navigation .quadrado:focus {
+  background: #ddd;
+}
+
+.jogo {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.informacao-jogo {
+  margin-left: 20px;
+}
